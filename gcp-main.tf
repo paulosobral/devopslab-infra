@@ -1,6 +1,6 @@
 resource "google_app_engine_application" "app" {
-  project     = "lab-devops-cloud-352100"
-  location_id = "us-central"
+  project     = "lab-devops-cloud-psobral"
+  location_id = "southamerica-east1"
 }
 
 resource "google_artifact_registry_repository" "my-repo" {
